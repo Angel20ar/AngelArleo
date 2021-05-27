@@ -10,16 +10,10 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- Css propio -->
     <link rel="stylesheet" href="./css/style.css">
-    <!-- Script para el webtracking de emBlue -->
-    <script
-        src="https://cdn.embluemail.com/pixeltracking/pixeltracking.js?code=634432539760bd951af5325dcac5f01a"></script>
-
 </head>
 <!-- as -->
 
 <body>
-    <script>(function (w, d, t, r, u, o, s, f) { w[r] = w[r] || function () { (w._rq = w._rq || []).push(Array.prototype.slice.call(arguments)) }; s = d.createElement(t), f = d.getElementsByTagName(t)[0]; s.async = 1; s.src = u; s.id = 'rtracker'; s.setAttribute('data-api-key', o); f.parentNode.insertBefore(s, f) })(window, document, 'script', '_gb', 'https://track.embluemail.com/tracker/tracker.js', 'd2588a71ac364a83bd21e3c0b7af739e');</script>
-    
     <h1>Hora de decidir</h1>
     <p>*Ingrese risa malvada*</p>
     <section class="row justify-content-center">
@@ -69,24 +63,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-    <!-- script push notifications -->
-    <script src="./emblue-sdk-worker.js"></script>
-    <!-- script para emBlue -->
-    <script>
-        (function (w, d, k, t, u, s, c, f) {
-            f = function (t) {
-                t = new Date();
-                return t.getFullYear() + '' + (t.getMonth() + 1) + '' + t.getDate() + 'T' + t.getHours() + '' + t.getMinutes() + '' + t.getSeconds()
-            };
-            u = 'https://widgets-static.embluemail.com/accounts/7335F7204DAA8D9A/scripts/sw_733.js?ts=' + f();
-            w[k] = w[k] || [];
-            s = d.createElement(t);
-            s.async = 1;
-            s.src = u;
-            c = d.getElementsByTagName(t)[0];
-            c.parentNode.insertBefore(s, c);
-        })(window, document, '_swdg', 'script');
-    </script>
 </body>
 
 </html>
